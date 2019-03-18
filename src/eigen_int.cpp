@@ -41,7 +41,7 @@ void fillRandVector(VectorXi* vec, int row)
 
 /*
  * A x B => C
- * $ nice -2 ./eigen_int [A's row] [B's row] [C's col]
+ * $ nice -n -2 ./eigen_int [A's row] [B's row] [C's col]
  */
 int main(int argc, char * argv[]){
 
